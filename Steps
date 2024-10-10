@@ -1,0 +1,47 @@
+Sonarcloud --
+snyk  
+owasp DC 
+
+Pipeline -- address book
+
+Pre-req
+
+	Plugins : Sonarscanner, quality gate, snynk, owasp DC tracker 
+
+	Conf -- Sonar token and Synk Api token, Tool config 
+
+	we have add stages in the  sast scanning and SCA Scanning, DC-SCA 
+	
+sonar 	
+	tamil-cloud-devops_address-book 
+	tamil-cloud-devops
+	5b2c32edbaa2cafcebc7540a893b91c1cac19b2e
+	
+	Sonar-cloud - System 
+	Scanner-tool -tool 
+	
+	Webhooks 
+	Jenkinsurl/sonarqube-webhook
+-----------------------------------------------
+synk - API  
+synk-tool - tool 
+
+c795624e-3edf-4547-9c00-26e074f535ab 
+
+creds-name : snyk-api-token 
+https://docs.snyk.io/integrations/ci-cd-integrations/jenkins-integration-overview
+-------------------------------------------------
+
+Tools ->  Sonar, snyk, DC -- Install 
+System -- Configure sonar 
+
+------------------------------ 
+
+Jenkins file 	
+
+-------------------------------------------- 
+https://github.com/ravipramoth/devsecops-jenkins-k8s-tf-sast-sca-dast-sonarcloud-snyk-zap-e2e-repo.git -- 
+
+
+---------------------------------------------
+
